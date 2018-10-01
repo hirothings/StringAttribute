@@ -25,14 +25,6 @@ public extension NSAttributedString {
         return AttributedStringBuilder(attributedString: self).apply(with: attributes, in: range).build()
     }
     
-    public func apply(with attribute: StringAttribute, in range: CountableRange<Int>) -> NSAttributedString {
-        return AttributedStringBuilder(attributedString: self).apply(with: attribute, in: range).build()
-    }
-    
-    public func apply(with attributes: [StringAttribute], in range: CountableRange<Int>) -> NSAttributedString {
-        return AttributedStringBuilder(attributedString: self).apply(with: attributes, in: range).build()
-    }
-    
     public func apply(with attribute: StringAttribute, in range: ClosedRange<Int>) -> NSAttributedString {
         return AttributedStringBuilder(attributedString: self).apply(with: attribute, in: range).build()
     }

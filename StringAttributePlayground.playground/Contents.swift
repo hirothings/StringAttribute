@@ -16,7 +16,7 @@ import StringAttribute
     .apply(with: .foregroundColor(.yellow), for: "t", to: .first)
     .apply(with: .foregroundColor(.red), for: "i", to: .first)
     .apply(with: .foregroundColor(.green), for: "b", to: .just(3))
-    .apply(with: [.underline(.styleSingle), .foregroundColor(.magenta)], for: "bannzai")
+    .apply(with: [.underline(.single), .foregroundColor(.magenta)], for: "bannzai")
     .apply(with: [.foregroundColor(.orange), .font(UIFont.boldSystemFont(ofSize: 40))], for: "write")
     .apply(
         with: [
